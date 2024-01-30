@@ -2,6 +2,7 @@
 
 BASE_CONF_DIR=/opt/camp/
 
+cd /tmp/ && rm -rf campconfiguration
 cd /tmp/ && git clone https://github.com/erdemsahin/campconfiguration.git \
     && cd /tmp/campconfiguration && git checkout master
 
